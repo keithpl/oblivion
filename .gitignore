@@ -1,3 +1,24 @@
+# Oblivion binary
+oblivion
+
+# Logs and configuration files
+*.log
+*.conf
+
+# Vim swap files
+*.swp
+
+# Clangd
+.clangd
+compile_flags.txt
+
+# Gprof output
+prof_output
+gmon.out
+
+# Valgrind output
+vgcore.*
+
 # Prerequisites
 *.d
 
