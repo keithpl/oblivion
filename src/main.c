@@ -3,6 +3,7 @@
 #include "byteorder.h"
 #include "byteops.h"
 #include "unaligned.h"
+#include "util.h"
 
 int main(void)
 {

@@ -13,9 +13,9 @@
 #define packed_u32 packed_u32
 #define packed_u64 packed_u64
 
-typedef struct { pack_field uint16_t value; } packed_u16;
-typedef struct { pack_field uint32_t value; } packed_u32;
-typedef struct { pack_field uint64_t value; } packed_u64;
+typedef struct { packed_field uint16_t value; } packed_u16;
+typedef struct { packed_field uint32_t value; } packed_u32;
+typedef struct { packed_field uint64_t value; } packed_u64;
 
 static inline uint16_t get_unaligned_u16(const void *ptr)
 {

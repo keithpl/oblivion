@@ -51,13 +51,13 @@
 #endif
 
 #if __has_attribute(__packed__)
-#define pack_struct		__attribute__((__packed__))
-#define pack_union		__attribute__((__packed__))
-#define pack_field		__attribute__((__packed__))
+#define packed_struct		__attribute__((__packed__))
+#define packed_union		__attribute__((__packed__))
+#define packed_field		__attribute__((__packed__))
 #else
-#define pack_struct
-#define pack_union
-#define pack_field
+#define packed_struct
+#define packed_union
+#define packed_field
 #endif
 
 #if __has_attribute(__format__)
