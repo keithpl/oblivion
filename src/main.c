@@ -2,6 +2,7 @@
 #include "bitops.h"
 #include "byteorder.h"
 #include "byteops.h"
+#include "list.h"
 #include "unaligned.h"
 #include "util.h"
 
