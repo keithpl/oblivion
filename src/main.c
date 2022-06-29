@@ -3,6 +3,7 @@
 #include "byteorder.h"
 #include "byteops.h"
 #include "list.h"
+#include "log.h"
 #include "minmax.h"
 #include "unaligned.h"
 #include "util.h"
