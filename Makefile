@@ -17,8 +17,8 @@ OBJECTS = $(SOURCES:$(SRC_DIR)/%.c=$(OBJ_DIR)/%.o)
 CFLAGS += $(RELEASE_CFLAGS)
 CFLAGS += -Wall -Wextra -pedantic -pedantic-errors -Wformat=2 -Wshadow	\
 	  -Wstrict-prototypes -Wstrict-overflow=2 -Wredundant-decls	\
-	  -Wnested-externs -Wfloat-equal -Wpointer-arith -Wpadded -Wvla	\
-	  -Wcast-qual -Wundef -Winit-self -Wwrite-strings -Wlogical-op
+	  -Wnested-externs -Wfloat-equal -Wpointer-arith -Wvla -Wundef	\
+	  -Wcast-qual -Winit-self -Wwrite-strings -Wlogical-op
 
 CLANGD_FILE = compile_flags.txt
 CLANGD_CFLAGS = $(CFLAGS) -Wno-unused-function -Wno-empty-translation-unit
