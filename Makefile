@@ -23,7 +23,8 @@ CFLAGS += -Wall -Wextra -pedantic -pedantic-errors -Wformat=2 -Wshadow	\
 CLANGD_FILE = compile_flags.txt
 CLANGD_CFLAGS = $(CFLAGS) -Wno-unused-function -Wno-empty-translation-unit
 
-default: $(TARGET)
+.PHONY: all
+all: $(TARGET)
 
 debug: CFLAGS := $(filter-out $(RELEASE_CFLAGS), $(CFLAGS))
 debug: CFLAGS += $(DEBUG_CFLAGS)
