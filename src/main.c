@@ -5,6 +5,7 @@
 #include "list.h"
 #include "log.h"
 #include "minmax.h"
+#include "ringbuf.h"
 #include "stringlib.h"
 #include "unaligned.h"
 #include "util.h"
